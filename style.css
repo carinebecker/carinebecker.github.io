@@ -23,7 +23,8 @@ nav {
     padding: 30px 0;
 }
 
-nav a {
+nav ul li {
+    display: inline-block;
     color: #2f3542;
     font-weight: 700; 
     text-decoration: none;   
