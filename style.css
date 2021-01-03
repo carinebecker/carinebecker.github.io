@@ -12,23 +12,21 @@ body {
 
 nav {
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
+    flex-direction: row;
     gap: 20px;
-    width: 100%;
+    justify-content: center;
     padding: 30px 0;
 }
 
-nav ul li {
-    display: inline-block;
-    color: #2f3542;
-    font-weight: 700; 
-    text-decoration: none;   
-}
-
 nav a {
+    color: rgb(34, 47, 62);
     text-decoration: none;
 }
+
+nav a:hover {
+    font-weight: 700;
+}
+
 /* 
 nav a::before {
     content: '';
@@ -46,7 +44,6 @@ nav a:hover:before {
     transition: 0.3s ease-in-out;
 } */
 
-
 main {
     align-items: center;
     display: flex;
@@ -57,6 +54,6 @@ main {
 main img{
     border-radius: 50%;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
-    width: 150px;
     margin-bottom: 36px;
+    width: 150px;
 }
