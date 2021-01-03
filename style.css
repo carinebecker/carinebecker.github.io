@@ -10,10 +10,6 @@ body {
     background-color: #f1f2f6;
 }
 
-.debug {
-    border: 2px solid crimson;
-}
-
 nav {
     display: flex;
     margin: 0 auto;
@@ -30,6 +26,10 @@ nav ul li {
     text-decoration: none;   
 }
 
+nav a {
+    text-decoration: none;
+}
+/* 
 nav a::before {
     content: '';
     overflow: hidden;
@@ -44,7 +44,19 @@ nav a:hover:before {
     z-index: -1;
     background-color: #ff6b81;
     transition: 0.3s ease-in-out;
+} */
+
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-
-
+main img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin-bottom: 36px;
+}
