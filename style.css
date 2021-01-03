@@ -56,6 +56,16 @@ main p a {
     color: rgb(34, 47, 62);
 }
 
+main section {
+    display: flex;
+    gap: 16px;
+    margin: 16px 0;
+}
+
 main section img {
     width: 32px;
+}
+
+main section a {
+    text-decoration: none;
 }
